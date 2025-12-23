@@ -2,22 +2,22 @@
 
 ## Table of Contents
 
-1. **Advanced Backend Foundations**  
-2. **JIT (Just-In-Time Compilation in Python)**  
-3. **Decorators**  
-4. **Collections Library**  
-5. **Classes (Advanced Python OOP)**  
-6. **Typing (Advanced Python Type Hints)**  
-7. **Combined Production Example**  
-8. **Multithreading & Parallelism**  
-9. **Magic (Dunder) Methods and Lambdas**  
-10. **PEP8 Guidelines**  
-11. **Triton Inference Server**  
-12. **TorchServe**  
-13. **GraphQL**  
-14. **Kafka & Pub/Sub**  
-15. **WebSockets**  
-16. **gRPC**
+1. [**Advanced Backend Foundations**](url)  
+2. [**JIT (Just-In-Time Compilation in Python)**  ](url)
+3. [**Decorators**](url)
+4. [**Collections Library**](url)
+5. [**Classes (Advanced Python OOP)**](url)
+6. [**Typing (Advanced Python Type Hints)**](url)
+7. [**Combined Production Example**](url)
+8. [**Multithreading & Parallelism**](url)
+9. [**Magic (Dunder) Methods and Lambdas**](url)
+10. [**PEP8 Guidelines**](url)
+11. [**Triton Inference Server**](url)
+12. [**TorchServe**](url)
+13. [**GraphQL**](url)
+14. [**Kafka & Pub/Sub**](url)
+15. [**WebSockets**](url)
+16. [**gRPC**](url)
 
 ---
 # **Section 1**: Backend in Python
