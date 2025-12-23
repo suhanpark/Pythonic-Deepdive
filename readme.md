@@ -16,7 +16,7 @@
 12. [**TorchServe**](https://github.com/suhanpark/Pythonic-Deepdive/blob/main/readme.md#section-12-torchserve)
 13. [**GraphQL**](https://github.com/suhanpark/Pythonic-Deepdive/blob/main/readme.md#section-13-graphql)
 14. [**Kafka & Pub/Sub**](https://github.com/suhanpark/Pythonic-Deepdive/blob/main/readme.md#section-13-graphql)
-15. [**WebSockets**](url)
+15. [**WebSockets**](https://github.com/suhanpark/Pythonic-Deepdive/blob/main/readme.md#section-15-websockets-deep-dive)
 16. [**gRPC**](https://github.com/suhanpark/Pythonic-Deepdive/blob/main/readme.md#section-16-grpc)
 
 ---
