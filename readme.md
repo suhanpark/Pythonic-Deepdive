@@ -10,7 +10,7 @@
 6. [**Typing (Advanced Python Type Hints)**](https://github.com/suhanpark/Pythonic-Deepdive/blob/main/readme.md#section-5-advanced-classes-in-python)
 7. [**Combined Production Example**](https://github.com/suhanpark/Pythonic-Deepdive/blob/main/readme.md#section-7-combined-production-example-jit--decorators--typing--classes--collections)
 8. [**Multithreading & Parallelism**](https://github.com/suhanpark/Pythonic-Deepdive/blob/main/readme.md#section-7-combined-production-example-jit--decorators--typing--classes--collections)
-9. [**Magic (Dunder) Methods and Lambdas**](url)
+9. [**Magic (Dunder) Methods and Lambdas**](https://github.com/suhanpark/Pythonic-Deepdive/blob/main/readme.md#section-9-magicdunder-methods-and-lambdas)
 10. [**PEP8 Guidelines**](url)
 11. [**Triton Inference Server**](url)
 12. [**TorchServe**](url)
@@ -1681,9 +1681,9 @@ funcs = [lambda i=i: i for i in range(3)]
 * [ ] Avoid late-binding bugs.
 * [ ] Prefer comprehensions to `map`/`filter` with lambdas.
 
-**Section 10: PEP8 Guidelines**
+# **Section 10: PEP8 Guidelines**
 ---
-# PEP8 Guidelines (Python Style Guide)
+## PEP8 Guidelines (Python Style Guide)
 
 PEP8 is the official style guide for Python code. Following it makes your code readable, consistent, and professional.  
 
@@ -2031,7 +2031,7 @@ class TritonPythonModel:
 * [ ] Enable dynamic batching for GPU efficiency.
 * [ ] Use ensembles for preprocessing or multi-model flows.
 
-**Section 12: TorchServe**
+# **Section 12: TorchServe**
 
 ---
 # TorchServe (Deep Dive)
@@ -2168,7 +2168,7 @@ default_workers_per_model=4
 * [ ] Expose Prometheus metrics.
 * [ ] Use Docker/K8s for scaling.
 
-**Section 13: GraphQL**
+# **Section 13: GraphQL**
 
 ---
 # GraphQL (Deep Dive)
@@ -2304,7 +2304,7 @@ class Subscription:
 * [ ] Secure endpoints (auth, complexity analysis).
 * [ ] Deploy with ASGI/FastAPI + Strawberry/Graphene.
 
-**Section 14: Kafka & Pub/Sub**
+# **Section 14: Kafka & Pub/Sub**
 ---
 # Kafka & Pub/Sub (Deep Dive)
 
@@ -2533,7 +2533,7 @@ async def ws_endpoint(ws: WebSocket):
 * [ ] Protect with TLS and rate limits.
 * [ ] Test reconnection logic on clients.
 
-**Section 16: gRPC**
+# **Section 16: gRPC**
 
 ---
 # gRPC (Deep Dive)
