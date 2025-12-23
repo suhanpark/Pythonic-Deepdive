@@ -12,12 +12,12 @@
 8. [**Multithreading & Parallelism**](https://github.com/suhanpark/Pythonic-Deepdive/blob/main/readme.md#section-7-combined-production-example-jit--decorators--typing--classes--collections)
 9. [**Magic (Dunder) Methods and Lambdas**](https://github.com/suhanpark/Pythonic-Deepdive/blob/main/readme.md#section-9-magicdunder-methods-and-lambdas)
 10. [**PEP8 Guidelines**](https://github.com/suhanpark/Pythonic-Deepdive/blob/main/readme.md#section-10-pep8-guidelines)
-11. [**Triton Inference Server**](url)
-12. [**TorchServe**](url)
-13. [**GraphQL**](url)
-14. [**Kafka & Pub/Sub**](url)
+11. [**Triton Inference Server**](https://github.com/suhanpark/Pythonic-Deepdive/blob/main/readme.md#section-11-triton-inference-server-deep-dive)
+12. [**TorchServe**](https://github.com/suhanpark/Pythonic-Deepdive/blob/main/readme.md#section-12-torchserve)
+13. [**GraphQL**](https://github.com/suhanpark/Pythonic-Deepdive/blob/main/readme.md#section-13-graphql)
+14. [**Kafka & Pub/Sub**](https://github.com/suhanpark/Pythonic-Deepdive/blob/main/readme.md#section-13-graphql)
 15. [**WebSockets**](url)
-16. [**gRPC**](url)
+16. [**gRPC**](https://github.com/suhanpark/Pythonic-Deepdive/blob/main/readme.md#section-16-grpc)
 
 ---
 # **Section 1**: Backend in Python
@@ -2306,7 +2306,7 @@ class Subscription:
 
 # **Section 14: Kafka & Pub/Sub**
 ---
-# Kafka & Pub/Sub (Deep Dive)
+## Kafka & Pub/Sub (Deep Dive)
 
 Both **Apache Kafka** and **Google Cloud Pub/Sub** are distributed messaging systems designed for event-driven and streaming architectures. They decouple producers and consumers, enabling scalable and reliable communication.
 
@@ -2436,7 +2436,7 @@ subscriber.subscribe(sub_path, callback=callback)
 * [ ] Integrate with stream processors if needed.
 
 ---
-# WebSockets (Deep Dive)
+# **Section 15**: WebSockets (Deep Dive)
 
 WebSockets provide a persistent, bidirectional communication channel between client and server, unlike HTTP which is request/response.
 
