@@ -20,7 +20,7 @@
 16. **gRPC**
 
 ---
-# Backend in Python
+# **Section 1**: Backend in Python
 
 This section covers a deep dive into building production-grade backends in Python. We go beyond simple CRUD apps and focus on concurrency, async programming, background tasks, deployment, and scaling strategies.
 
@@ -200,7 +200,7 @@ add.delay(3, 4)
 * Tracing: OpenTelemetry.
 
 
-Great — here’s **Section 2: JIT (Just-In-Time compilation in Python)** as raw Markdown.
+**Section 2: JIT (Just-In-Time compilation in Python)**
 ---
 # JIT in Python (Numba, PyPy, GPU kernels)
 
@@ -1468,7 +1468,7 @@ threading.Thread(target=consumer).start()
 * [ ] Executors > manual threads/processes.
 * [ ] Benchmark vs single-thread baseline.
 
-Here’s **Section 9: Magic/Dunder Methods and Lambdas** in raw Markdown.
+**Section 9: Magic/Dunder Methods and Lambdas**
 
 ---
 # Magic (Dunder) Methods and Lambda Functions
@@ -1681,7 +1681,7 @@ funcs = [lambda i=i: i for i in range(3)]
 * [ ] Avoid late-binding bugs.
 * [ ] Prefer comprehensions to `map`/`filter` with lambdas.
 
-Here’s **Section 10: PEP8 Guidelines** in raw Markdown.
+**Section 10: PEP8 Guidelines**
 ---
 # PEP8 Guidelines (Python Style Guide)
 
@@ -2031,7 +2031,7 @@ class TritonPythonModel:
 * [ ] Enable dynamic batching for GPU efficiency.
 * [ ] Use ensembles for preprocessing or multi-model flows.
 
-Here’s **Section 12: TorchServe** in raw Markdown.
+**Section 12: TorchServe**
 
 ---
 # TorchServe (Deep Dive)
@@ -2168,7 +2168,7 @@ default_workers_per_model=4
 * [ ] Expose Prometheus metrics.
 * [ ] Use Docker/K8s for scaling.
 
-Here’s **Section 13: GraphQL** in raw Markdown.
+**Section 13: GraphQL**
 
 ---
 # GraphQL (Deep Dive)
@@ -2304,7 +2304,7 @@ class Subscription:
 * [ ] Secure endpoints (auth, complexity analysis).
 * [ ] Deploy with ASGI/FastAPI + Strawberry/Graphene.
 
-Here’s **Section 14: Kafka & Pub/Sub** in raw Markdown.
+**Section 14: Kafka & Pub/Sub**
 ---
 # Kafka & Pub/Sub (Deep Dive)
 
@@ -2533,7 +2533,7 @@ async def ws_endpoint(ws: WebSocket):
 * [ ] Protect with TLS and rate limits.
 * [ ] Test reconnection logic on clients.
 
-Here’s **Section 16: gRPC** in raw Markdown.
+**Section 16: gRPC**
 
 ---
 # gRPC (Deep Dive)
