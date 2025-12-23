@@ -11,7 +11,7 @@
 7. [**Combined Production Example**](https://github.com/suhanpark/Pythonic-Deepdive/blob/main/readme.md#section-7-combined-production-example-jit--decorators--typing--classes--collections)
 8. [**Multithreading & Parallelism**](https://github.com/suhanpark/Pythonic-Deepdive/blob/main/readme.md#section-7-combined-production-example-jit--decorators--typing--classes--collections)
 9. [**Magic (Dunder) Methods and Lambdas**](https://github.com/suhanpark/Pythonic-Deepdive/blob/main/readme.md#section-9-magicdunder-methods-and-lambdas)
-10. [**PEP8 Guidelines**](url)
+10. [**PEP8 Guidelines**](https://github.com/suhanpark/Pythonic-Deepdive/blob/main/readme.md#section-10-pep8-guidelines)
 11. [**Triton Inference Server**](url)
 12. [**TorchServe**](url)
 13. [**GraphQL**](url)
@@ -1848,7 +1848,7 @@ with open("file.txt") as f:
 
 
 ---
-# Triton Inference Server (Deep Dive)
+# **Section 11**: Triton Inference Server (Deep Dive)
 
 Triton Inference Server is NVIDIA’s production-grade inference serving system. It supports multiple frameworks, dynamic batching, observability, and deployment across GPUs/CPUs.
 
