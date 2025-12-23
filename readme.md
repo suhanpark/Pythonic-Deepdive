@@ -2,14 +2,14 @@
 
 ## Table of Contents
 
-1. [**Advanced Backend Foundations**](url)  
-2. [**JIT (Just-In-Time Compilation in Python)**  ](url)
-3. [**Decorators**](url)
-4. [**Collections Library**](url)
-5. [**Classes (Advanced Python OOP)**](url)
-6. [**Typing (Advanced Python Type Hints)**](url)
-7. [**Combined Production Example**](url)
-8. [**Multithreading & Parallelism**](url)
+1. [**Advanced Backend Foundations**](https://github.com/suhanpark/Pythonic-Deepdive/blob/main/readme.md#section-1-backend-in-python)  
+2. [**JIT (Just-In-Time Compilation in Python)**](https://github.com/suhanpark/Pythonic-Deepdive/blob/main/readme.md#section-2-jit-just-in-time-compilation-in-python)
+3. [**Decorators**](https://github.com/suhanpark/Pythonic-Deepdive/blob/main/readme.md#section-3-decorators-in-python-basic--advanced)
+4. [**Collections Library**](https://github.com/suhanpark/Pythonic-Deepdive/blob/main/readme.md#section-4-collections-library-deep-dive)
+5. [**Classes (Advanced Python OOP)**](https://github.com/suhanpark/Pythonic-Deepdive/blob/main/readme.md#section-5-advanced-classes-in-python)
+6. [**Typing (Advanced Python Type Hints)**](https://github.com/suhanpark/Pythonic-Deepdive/blob/main/readme.md#section-5-advanced-classes-in-python)
+7. [**Combined Production Example**](https://github.com/suhanpark/Pythonic-Deepdive/blob/main/readme.md#section-7-combined-production-example-jit--decorators--typing--classes--collections)
+8. [**Multithreading & Parallelism**](https://github.com/suhanpark/Pythonic-Deepdive/blob/main/readme.md#section-7-combined-production-example-jit--decorators--typing--classes--collections)
 9. [**Magic (Dunder) Methods and Lambdas**](url)
 10. [**PEP8 Guidelines**](url)
 11. [**Triton Inference Server**](url)
@@ -1468,10 +1468,10 @@ threading.Thread(target=consumer).start()
 * [ ] Executors > manual threads/processes.
 * [ ] Benchmark vs single-thread baseline.
 
-**Section 9: Magic/Dunder Methods and Lambdas**
+# **Section 9: Magic/Dunder Methods and Lambdas**
 
 ---
-# Magic (Dunder) Methods and Lambda Functions
+## Magic (Dunder) Methods and Lambda Functions
 
 Magic methods (also called dunder methods because of the double underscores) allow your classes to hook into Python’s data model.  
 Lambda functions provide anonymous, inline functions for small tasks.
