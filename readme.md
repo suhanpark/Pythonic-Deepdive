@@ -200,9 +200,9 @@ add.delay(3, 4)
 * Tracing: OpenTelemetry.
 
 
-**Section 2: JIT (Just-In-Time compilation in Python)**
+# **Section 2: JIT (Just-In-Time compilation in Python)**
 ---
-# JIT in Python (Numba, PyPy, GPU kernels)
+## JIT in Python (Numba, PyPy, GPU kernels)
 
 When folks say “JIT in Python,” they usually mean **Numba** (JIT to native via LLVM) or **PyPy** (a JITting Python runtime). There’s also JIT inside frameworks (e.g., `torch.compile`). For general Python, Numba is the workhorse.
 
@@ -1158,7 +1158,7 @@ def has_access(r: Role) -> bool: return r == Role.ADMIN
 * [ ] Run `mypy --strict` in CI.
 * [ ] Separate runtime validation from static typing.
 ---
-#  **Section 6**: Combined Production Example (JIT + Decorators + Typing + Classes + Collections)
+#  **Section 7**: Combined Production Example (JIT + Decorators + Typing + Classes + Collections)
 
 This section shows how all the advanced Python features (JIT, decorators, typing, classes, and collections) can be combined in a realistic, production-style mini-service.
 
