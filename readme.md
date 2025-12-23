@@ -435,7 +435,7 @@ print("cosine_sim ms:", bench(cosine_sim, A, B))
 * [ ] For GPU, batch enough work.
 * [ ] Keep Python objects out of JIT kernels.
 ---
-# Decorators in Python (Basic → Advanced)
+# **Section 3**: Decorators in Python (Basic → Advanced)
 
 Decorators are functions that take another function (or class) and return a modified function (or class). They are used for cross-cutting concerns like logging, caching, access control, retries, metrics, etc.
 
@@ -617,7 +617,7 @@ class Service:
 * [ ] Limit decorator logic: keep core function testable.
 * [ ] Prefer small, composable decorators.
 ---
-# Collections Library (Deep Dive)
+# **Section 4**: Collections Library (Deep Dive)
 
 The `collections` module in Python provides high-performance container datatypes beyond the built-in `list`, `dict`, `set`, and `tuple`. Knowing when and how to use them is critical for clean, pythonic, and performant code.
 
@@ -779,7 +779,7 @@ print(list(moving_average([40, 30, 50, 46, 39, 44], 3)))
 * [ ] Subclass `UserDict/List/String` instead of built-ins when customizing.
 
 ---
-# Advanced Classes in Python
+# **Section 5**: Advanced Classes in Python
 
 Python classes go beyond simple containers — you can use dataclasses, slots, descriptors, mixins, ABCs, and even metaclasses to build robust, production-grade systems.
 
@@ -957,7 +957,7 @@ print(D.mro())
 * [ ] Avoid metaclasses unless designing a framework.
 
 ---
-# Typing in Python (Advanced, Production-Grade)
+# **Section 6**: Typing in Python (Advanced, Production-Grade)
 
 Typing in Python makes APIs predictable, improves IDE support, and helps catch bugs early. Python itself ignores most annotations at runtime, but tools like `mypy`, `pyright`, FastAPI, and Pydantic leverage them.
 
@@ -1158,7 +1158,7 @@ def has_access(r: Role) -> bool: return r == Role.ADMIN
 * [ ] Run `mypy --strict` in CI.
 * [ ] Separate runtime validation from static typing.
 ---
-# Combined Production Example (JIT + Decorators + Typing + Classes + Collections)
+#  **Section 6**: Combined Production Example (JIT + Decorators + Typing + Classes + Collections)
 
 This section shows how all the advanced Python features (JIT, decorators, typing, classes, and collections) can be combined in a realistic, production-style mini-service.
 
@@ -1296,7 +1296,7 @@ class AverageProcessor:
 * [ ] Separate business logic (Processor) behind Protocols.
 
 ---
-# Multithreading and Parallelism in Python
+#  **Section 8**: Multithreading and Parallelism in Python
 
 Python has multiple ways to achieve concurrency and parallelism. Due to the Global Interpreter Lock (GIL), threads are best for I/O-bound tasks, while processes or native extensions are best for CPU-bound workloads.
 
